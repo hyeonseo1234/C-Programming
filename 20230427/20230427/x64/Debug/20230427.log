@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(15,39): error C2143: 구문 오류: ')'이(가) '상수' 앞에 없습니다.
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(15,39): error C2143: 구문 오류: ';'이(가) '상수' 앞에 없습니다.
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(15,39): error C2059: 구문 오류: '상수'
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(15,45): error C2059: 구문 오류: ')'
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(16,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\samsung\OneDrive\바탕 화면\새 폴더 (3)\20230427\20230427\main.cpp(16,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
