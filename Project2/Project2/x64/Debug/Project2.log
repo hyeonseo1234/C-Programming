@@ -1,0 +1,45 @@
+﻿  maincpp.cpp
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(1,1): warning C4828: 파일에 0x127b 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(50,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(50,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(50,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(51,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(51,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(51,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(58,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(58,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(58,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(67,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(67,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(67,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(78,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(78,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(78,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(79,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(79,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(79,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(90,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(90,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(90,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(91,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(91,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(91,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(102,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(102,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(102,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(112,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(112,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(112,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(113,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(113,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(113,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(116,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(116,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(116,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(133,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(133,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(133,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(144,16): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(144,16): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\Project2\maincpp.cpp(144,16): message : 누락된 variadic 인수 1이(가) 서식 문자열 '%6.2lf'에 필요합니다.
+  Project2.vcxproj -> C:\미래모빌리티공학과\모빌리티프로그래밍\SHINhyeonseo\Project2\x64\Debug\Project2.exe
