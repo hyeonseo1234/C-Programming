@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define _USE_MATH_DEFINES     // M_PI¸¦ »ç¿ëÇÏ±â À§ÇØ¼­ Ãß°¡
+#define _USE_MATH_DEFINES     // M_PIë¥¼ ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œ ì¶”ê°€
 #include <math.h>
 #include <time.h>
 
@@ -16,158 +16,86 @@
 #define RAD2DEG(x)  x*180/M_PI
 
 
-void Excersize_2_18(int solution, int answer) //ÇÑ¶ó´ëÇĞ±³ ¹Ì·¡¸ğºô¸®Æ¼°øÇĞ°ú ½ÅÇö¼­
-
-{
+void Excersize_2_24(int solution, int answer){
     srand(time(NULL));
+    double height = 39.2 + rand() % (10 + 1) - 4;
+    double second_velocity = 5 + rand() % (10 + 1) - 2;
+    double gravitational_acceleration = 9.8;
+    double x0 = 0;
+    double v0 = 0;
+    double t = 0;
+    double x = 0;
 
-    //  º¯¼ö ¼±¾ğ Áö¿ª
-    double velocity_m_s = 40.0 + rand() % (10 + 1) - 3;
-    double velocity_f = 0;
-    double a = 0.5 + rand() % (3 + 1);
-    double v;
-    double km = 1000;
-    double hour = 3600;
-    double distance_x;
-    double t;
-    double time_1 = 1.0;
-    double x_4_distance;
-    double x_5_distance;
-    double time_4 = 4.0;
-    double time_5 = 5.0;
-    double delta_distance;
-    double distance_x0 = 0;
-
-    printf("\n\n");
-    printf("2-18 \n");
-    printf("%6.2lf km/hÀÇ ¼Ó·ÂÀ¸·Î ´Ş¸®´Â ÀÚµ¿Â÷°¡ ¿¬·á°¡ ¶³¾îÁ®¼­ ÀÏÁ¤ÇÑ °¡¼Óµµ%6.2lf m/s^2À¸·Î °¨¼ÓµÇ¾ú´Ù. \n\n", velocity_m_s, a);
-
-    printf("(a) ÀÚµ¿Â÷°¡ Á¤ÁöÇÒ ¶§±îÁö ÁÖÇàÇÑ °Å¸®´Â ¾ó¸¶ÀÎ°¡? \n\n");
-
-    printf("(b) ÀÚµ¿Â÷°¡ Á¤ÁöÇÒ ¶§±îÁö °É¸° ½Ã°£Àº ¾ó¸¶ÀÎ°¡? \n\n");
-
-    printf("(c) ÀÚµ¿Â÷°¡ Ã³À½ %6.2lf sµ¿¾È ÀÌµ¿ÇÑ °Å¸®¿Í ´Ù¼¸ ¹øÂ° %6.2lf s µ¿¾È¿¡ ÀÌµ¿ÇÑ °Å¸®´Â °¢°¢ ¾ó¸¶ÀÎ°¡? \n\n", time_1, time_1);
-
-
+    printf("\n");
+    printf("2-24 \n");
+    printf("ë†’ì´ê°€ %5.2lf mì¸ 10ì¸µ ì˜¥ìƒì—ì„œ \n", height);
+    printf("ê³µì„ ìˆ˜í‰ë°©í–¥ìœ¼ë¡œ ì´ˆì†ë„ %5.2lf m/së¡œ ë˜ì¡Œë‹¤. \n\n", second_velocity);
+    printf("(a) ê³µì´ ì§€ë©´ì— ë–¨ì–´ì§€ëŠ” ë° ê±¸ë¦¬ëŠ” ì‹œê°„ì€ ì–¼ë§ˆì¸ê°€? \n\n");
+    printf("(b) ê³µì€ ê±´ë¬¼ì—ì„œ ìˆ˜í‰ìœ¼ë¡œ ì–¼ë§ˆì˜ ê±°ë¦¬ì— ë–¨ì–´ì§€ëŠ”ê°€? \n");
 
     if (solution == SHOW)
-
     {
-        srand(time(NULL));
+        printf("\n");
+        printf("=========================   í’€ ì´   =============================\n\n");
+        // your code here
+        t = sqrt(height / (1.0 / 2.0 * gravitational_acceleration));
+
+
+
+
+        printf("(a) ê³µì´ ì§€ë©´ì— ë–¨ì–´ì§€ëŠ” ë° ê±¸ë¦¬ëŠ” ì‹œê°„ì€ ì–¼ë§ˆì¸ê°€?\n\n");
+
+        printf("ê´€ë ¨ ê³µì‹ì€ x = x0 + v0 * t + (1/2) * a * t^2 \n");
+        printf("x: ë†’ì´, x0: ì´ë™ê±°ë¦¬, v0: ì´ˆê¸° ì†ë„, a: ê°€ì†ë„, t: ì‹œê°„, g: ì¤‘ë ¥ ê°€ì†ë„ \n\n");
+
+        printf("ì¤‘ë ¥ ê°€ì†ë„ëŠ” ì—°ì§ ì•„ë˜ ë°©í–¥ì´ë¯€ë¡œ %6.2lf m/s^2 ì…ë‹ˆë‹¤.\n\n", -gravitational_acceleration);
+
+        printf("y        = y0 + v0 * t + (1/2) * a * t^2\n");
+        printf("%5.2lf  m = (%5.2lf m) + (%5.2lf m) * t + (1/2) * (%5.2lf m/s^2) * t^2 \n", x0, -height, v0, -gravitational_acceleration);
+        printf("t^2      = (%5.2lf m + %5.2lf m/s) / ( 1/2 * %5.2lf m/s^2 )\n", -height,v0 * t,- gravitational_acceleration);
+        printf("         = %5.2lf s \n\n", -height / (1.0 / 2.0 * -gravitational_acceleration));
+
+        printf("t = âˆšt^2\n");
+        printf("  = âˆš%5.2lf s\n", height / (1.0 / 2.0 * gravitational_acceleration));
+        printf("  = %5.2lf s\n", t);
 
         printf("\n");
-        printf("=========================   Ç® ÀÌ   =============================\n\n");
-        printf("(a) ÀÚµ¿Â÷°¡ Á¤ÁöÇÒ ¶§±îÁö ÁÖÇàÇÑ °Å¸®´Â ¾ó¸¶ÀÎ°¡? \n\n");
+    }
+    if (answer == SHOW) {
+        printf("=========================   ì • ë‹µ   =============================\n\n");
 
-        // your code here
-        printf("°ü·Ã °ø½ÄÀº v^2 - v0^2 = 2 * a * ¥Äx\n");
-        printf("¥Äx = x - x0, x : ³ªÁßÀ§Ä¡, x0 : Ã³À½À§Ä¡\n");
-        printf(" a : °¡¼Óµµ, v : ³ªÁß¼Óµµ, v0 : Ã³À½¼Óµµ\n\n");
-
-
-        v = velocity_m_s * km / hour;
-
-        printf("((%6.2lf m/s)^2 - (%6.2lf km/h * %6.2lf m / %6.2lf s)^2) = 2 * (-%6.2lf m/s^2) * x\n\n", velocity_f, velocity_m_s, km, hour, a);
-        printf("x =((%6.2lf m/s)^2 - (%6.2lf m/s)^2) / 2 * (-%6.2lf m/s^2) \n", velocity_f, v, a);
-
-        distance_x = -v * v / (2 * (-a));
-
-        printf("  = %6.2lf m\n\n", distance_x);
-
+        printf("ê³µì´ ì§€ë©´ì— ë–¨ì–´ì§€ëŠ” ë° ê±¸ë¦¬ëŠ” ì‹œê°„(t) = %5.2lf s \n\n", t);
     }
 
-    if (answer == SHOW)
 
-    {
-        printf("=========================   Á¤ ´ä   =============================\n\n");
-
-        printf("x = %6.2lf m\n\n", distance_x);
-
-    }
 
     if (solution == SHOW)
-
     {
-        printf("=========================   Ç® ÀÌ   =============================\n\n");
-        printf("(b) ÀÚµ¿Â÷°¡ Á¤ÁöÇÒ ¶§±îÁö °É¸° ½Ã°£Àº ¾ó¸¶ÀÎ°¡? \n\n");
-
+        printf("=========================   í’€ ì´   =============================\n\n");
         // your code here
-        printf("°ü·Ã °ø½ÄÀº v = v0 + a * t\n");
-        printf("¥Ät = ¥Äv / a, a : °¡¼Óµµ\n");
-        printf("¥Äv = v - v0, v : ³ªÁß¼Óµµ, v0 : Ã³À½¼Óµµ\n\n");
+        x = second_velocity * t;
+        printf("(b) ê³µì€ ê±´ë¬¼ì—ì„œ ìˆ˜í‰ìœ¼ë¡œ ì–¼ë§ˆì˜ ê±°ë¦¬ì— ë–¨ì–´ì§€ëŠ”ê°€? \n\n");
 
-        printf("%6.2lf m/s = (%6.2lf km/h * %6.2lf m / %6.2lf s) + (-%6.2lf m/s^2) * t \n\n", velocity_f, velocity_m_s, km, hour, a);
-        printf("t = %6.2lf m/s - (%6.2lf km/h * %6.2lf m / %6.2lf s) / (-%6.2lf m/s^2) \n", velocity_f, velocity_m_s, km, hour, a);
+        printf("ê´€ë ¨ ê³µì‹ì€ x = x0 + v0 * t  \n");
+        printf("x: ìˆ˜í‰ê±°ë¦¬, x0: ì´ˆê¸°ê±°ë¦¬, v0: ì´ˆê¸° ì†ë„, t: ì‹œê°„ \n\n");
 
-        printf("  = %6.2lf m/s - %6.2lf m/s / (-%6.2lf m/s^2)\n", velocity_f, v, a);
+        printf("x = x0 + v0 * t  \n");
+        printf("  = %5.2lf + %5.2lf m/s * %5.2lf s \n", x0, second_velocity, t);
+        printf("  = % 5.2lf m \n", x);
 
-        t = 0 - v / -a;
-
-        printf("  =  %6.2lf s\n\n", t);
-
-
-
+        printf("\n");
     }
+    if (answer == SHOW) {
+        printf("=========================   ì • ë‹µ   =============================\n\n");
+        printf("ìˆ˜í‰ìœ¼ë¡œ ë–¨ì–´ì§€ëŠ” ê±°ë¦¬(x) = %5.2lf m \n\n", x);
 
-    if (answer == SHOW)
-
-    {
-        printf("=========================   Á¤ ´ä   =============================\n\n");
-
-        printf("t = %6.2lf s\n\n", t);
-
-    }
-    if (solution == SHOW)
-
-    {
-        printf("=========================   Ç® ÀÌ   =============================\n\n");
-        printf("(c) ÀÚµ¿Â÷°¡ Ã³À½ %6.2lf sµ¿¾È ÀÌµ¿ÇÑ °Å¸®¿Í ´Ù¼¸ ¹øÂ° %6.2lf s µ¿¾È¿¡ ÀÌµ¿ÇÑ °Å¸®´Â °¢°¢ ¾ó¸¶ÀÎ°¡? \n\n", time_1, time_1);
-
-        // your code here   
-        printf("°ü·Ã °ø½ÄÀº x = x0 + v0 * t + 1/2 * a * t^2\n");
-        printf("¥Ät = ¥Äv / a, v : ³ªÁß¼Óµµ, v0 : Ã³À½¼Óµµ, a : °¡¼Óµµ\n");
-        printf("¥Äx = x - x0, x : ³ªÁßÀ§Ä¡, x0 : Ã³À½À§Ä¡\n");
-        printf("x4 : 4ÃÊ µ¿¾È ÀÌµ¿ÇÑ °Å¸®, x5 : 5ÃÊ µ¿¾È ÀÌµ¿ÇÑ °Å¸®\n\n");
-
-        distance_x = distance_x0 + v * time_1 + (-a / 2) * (time_1 * time_1);
-
-        printf(" x =%6.2lf m + (%6.2lf km/h * %6.2lf m / %6.2lf s) *%6.2lf s + 1/2 * (-%6.2lf m/s^2) * (%6.2lf s)^2 \n", distance_x0, velocity_m_s, km, hour, time_1, a, time_1);
-        printf("   = %6.2lf m\n\n", distance_x);
-
-
-        printf("x4 =%6.2lf m + (%6.2lf km/h * %6.2lf m / %6.2lf s) * %6.2lf s + 1/2 * (-%6.2lf m/s^2) * (%6.2lf s)^2\n", distance_x0, velocity_m_s, km, hour, time_4, a, time_4);
-
-        x_4_distance = distance_x0 + v * time_4 + (-a / 2) * (time_4 * time_4);
-
-        printf("   = %6.2lf m\n\n", x_4_distance);
-
-        printf("x5 =%6.2lf m + (%6.2lf km/h * %6.2lf m / %6.2lf s) * %6.2lf s + 1/2 * (-%6.2lf m/s^2) * (%6.2lf s)^2\n", distance_x0, velocity_m_s, km, hour, time_5, a, time_5);
-
-        x_5_distance = distance_x0 + v * time_5 + (-a / 2) * (time_5 * time_5);
-
-        printf("   = %6.2lf m\n\n", x_5_distance);
-
-        printf("¥Äx = x5 - x4\n");
-        delta_distance = distance_x0 + x_5_distance - x_4_distance;
-
-        printf("   = %6.2lf m\n\n", delta_distance);
-
-
-
-    }
-
-    if (answer == SHOW)
-
-    {
-        printf("=========================   Á¤ ´ä   =============================\n\n");
-
-        printf(" x = %6.2lf m\n", distance_x);
-        printf("¥Äx = %6.2lf m\n\n ", delta_distance);
         printf("=================================================================\n");
         printf("\n\n\n");
     }
-
+    
+    
 }
+
 
 int main(void)
 {
