@@ -1,0 +1,4 @@
+﻿  소스.cpp
+C:\Users\user\Desktop\20230521\해오라기\Project3\Project3\소스.cpp(22,15): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\user\Desktop\20230521\해오라기\Project3\Project3\소스.cpp(55,19): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Project3.vcxproj -> C:\Users\user\Desktop\20230521\해오라기\Project3\x64\Debug\Project3.exe
